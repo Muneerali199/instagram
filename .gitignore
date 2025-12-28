@@ -38,3 +38,22 @@ e2b.*.local.toml
 
 **/.react-router
 apps/mobile/caches/*
+
+# Expo
+apps/mobile/.expo/
+apps/mobile/.expo-shared/
+
+# Lock files (keep one)
+apps/web/package-lock.json
+apps/mobile/package-lock.json
+yarn.lock
+
+# Build artifacts
+apps/web/build/
+apps/mobile/android/
+apps/mobile/ios/
+
+# Temporary files
+*.zip
+tmp/
+temp/
